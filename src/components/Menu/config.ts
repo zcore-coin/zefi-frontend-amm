@@ -30,11 +30,6 @@ const config: MenuEntry[] = [
       icon: 'PoolIcon',
     href: 'https://finance.zcore.network/nests',
   },
-   {
-    label: 'Audit By Certik in progress...',
-    icon: 'AuditIcon',
-    href: '/',
-  },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -86,6 +81,11 @@ const config: MenuEntry[] = [
       },
     ],
   },
+   {
+    label: 'Audit By Certik in progress...',
+    icon: 'AuditIcon',
+    href: '/',
+  },  
 ]
 
 export default config

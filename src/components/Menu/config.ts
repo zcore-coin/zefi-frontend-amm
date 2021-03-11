@@ -26,8 +26,8 @@ const config: MenuEntry[] = [
     href: 'https://finance.zcore.network/farms',
   },
   {
-    label: 'Nests',
-      icon: 'PoolIcon',
+    label: 'Pools',
+    icon: 'PoolIcon',
     href: 'https://finance.zcore.network/nests',
   },
   // {
@@ -50,12 +50,16 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Github',
-        href: 'https://github.com/zcore-coin/',
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/zcore-finance/',
       },
       {
         label: 'Docs',
         href: 'https://docs.zcore.fi/',
+      },      
+      {
+        label: 'Github',
+        href: 'https://github.com/zcore-coin/',
       },
       {
         label: 'PancakeSwap',
@@ -82,9 +86,9 @@ const config: MenuEntry[] = [
     ],
   },
    {
-    label: 'Audit By Certik in progress...',
+    label: 'Audit By Certik',
     icon: 'AuditIcon',
-    href: '/',
+    href: 'https://certik.org/projects/zcore',
   },  
 ]
 

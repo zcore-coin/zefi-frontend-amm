@@ -27,6 +27,14 @@
       "logoURI": "https://zcore.network/coins/ZCR.png"
     },
     {
+      "name": "Wrapped PEPS",
+      "symbol": "PEPS",
+      "address": "0xf0ebeb79792190a1be089c522c82e724a4f8c8f1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://zcore.network/coins/PEPS.png"
+    },    
+    {
       "name": "XPIX BR",
       "symbol": "XPIX",
       "address": "0x5a032954b64fdcb0ba5f0a4467ec6e5262eff80c",

@@ -7,19 +7,15 @@ const config: MenuEntry[] = [
     href: "https://finance.zcore.network",
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: "Exchange",
-        href: "/#/swap",
-      },
-      {
-        label: "Liquidity",
-        href: "/#/pool",
-      },
-    ],
-  },
+    label: 'Exchange',
+    icon: 'ExchangeIcon',
+    href: "/swap",
+  },  
+  {
+    label: 'Liquidity',
+    icon: 'LiquidityIcon',
+    href: "/pool",
+  },   
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -52,10 +48,10 @@ const config: MenuEntry[] = [
       {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/zcore-finance/',
-      },
+      },    
       {
-        label: 'Docs',
-        href: 'https://docs.zcore.fi/',
+        label: 'Price Chart',
+        href: 'https://goswapp-bsc.web.app/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },      
       {
         label: 'Github',
@@ -65,31 +61,27 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },
+      {
+        label: 'Add to Metamask',
+        href: 'https://bit.ly/3sSDdrB',
+      },    
     ],
   },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Buy ZeFi',
-        href: 'https://exchange.zcore.network/#/swap?inputCurrency=ETH&outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
-      },
-      {
-        label: 'Buy wZCR',
-        href: 'https://exchange.zcore.network/#/swap?inputCurrency=ETH&outputCurrency=0x1f01dc57c66c2f87d8eab9c625d335e9defe6912',
-      },
-      {
-        label: 'Buy ZCRT',
-        href: 'https://exchange.zcore.network/#/swap?inputCurrency=ETH&outputCurrency=0x31184efef1ccd72696facd35594af3af2a537a3f',
-      },
-    ],
+   {
+    label: 'ZCore Network',
+    icon: 'ZCoreIcon',
+    href: 'https://zcore.network',
   },
    {
     label: 'Audit By Certik',
     icon: 'AuditIcon',
     href: 'https://certik.org/projects/zcore',
   },  
+   {
+    label: 'Docs',
+    icon: 'GitbookIcon',
+    href: 'https://docs.zcore.fi/',
+  },   
 ]
 
 export default config

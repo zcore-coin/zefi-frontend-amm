@@ -11,6 +11,22 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "CashHand",
+      "symbol": "CHND",
+      "address": "0xA0451f8820CFb45CEd3A90470901e1dB38fb7b8f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://zcore.network/coins/CHND.png"
+    },
+    {
+      "name": "MysticPoker",
+      "symbol": "MYP",
+      "address": "0x11f59d29ba0a7b765c4a454fd46ff40525a85402",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/18619.png"
+    },    
+    {
       "name": "ZCore Finance",
       "symbol": "ZEFI",
       "address": "0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07",

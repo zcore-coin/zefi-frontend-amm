@@ -24,7 +24,7 @@
       "address": "0x11f59d29ba0a7b765c4a454fd46ff40525a85402",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/18619.png"
+      "logoURI": "https://raw.githubusercontent.com/zcore-coin/zefi-frontend-amm/9ef4f6294b09ae799d7d8670902b576947cc8afa/src/constants/token/images/MYP.png"
     },    
     {
       "name": "ZCore Finance",

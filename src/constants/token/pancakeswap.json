@@ -10,6 +10,14 @@
   "logoURI": "/images/coins/wbnb.png",
   "keywords": ["pancake", "default"],
   "tokens": [
+  {
+     "name": "Nort Token",
+     "symbol": "NT",
+     "address": "0xA752dF1dE29CdDbA6f1142db2a75d407092CCE4b",
+     "chainId": 56,
+     "decimals": 18,
+     "logoURI": "https://i.ibb.co/7k54qZg/NT.jpg"
+   },
     {
     "name": "Blue Token",
     "symbol": "BLUE",
